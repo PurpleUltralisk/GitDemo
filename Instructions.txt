@@ -1,0 +1,6 @@
+This to create a workflow guide for Git
+
+//Setting up Git username
+1. git config --global user.name
+2. git config -- 
+Step 1: in 'src' folder, run git init
