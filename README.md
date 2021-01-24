@@ -12,9 +12,10 @@ Step 1: in 'src' folder, run git init
         Or git clone url 
 
 Step 2: git add filename
+Additional notes:
 git add . => adds all files in folder
 git add -A => stage all changes
-Optional: git diff // shows the changes, press 'q' at end to quit
+git diff => shows the changes, press 'q' at end to quit
 
 Step 3: git commit -m "message"
 
@@ -31,7 +32,8 @@ Step 3: Merge branch into current one
 # Pushing to Repo
 Step 1: Add alias of project
     git remote add [alias] [url]
-
+    Github example: git remote add origin [url]
+    
 Step 2: To push local commits 
     git push [alias/url] [branch]
-
+    Github example: git push -u origin main
