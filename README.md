@@ -12,6 +12,8 @@ Step 1: in 'src' folder, run git init
         Or git clone url 
 
 Step 2: git add filename
+git add . => adds all files in folder
+git add -A => stage all changes
 Optional: git diff // shows the changes, press 'q' at end to quit
 
 Step 3: git commit -m "message"
